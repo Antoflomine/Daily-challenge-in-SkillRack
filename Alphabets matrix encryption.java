@@ -27,9 +27,8 @@ public class Hello {
 		}
 		    if(flag==0){
 		        res.append(" ");
-		    
-		       
-		    
+
+			    
 		}
 		}
 		System.out.println(res);
