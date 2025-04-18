@@ -2,7 +2,6 @@ import java.util.*;
 public class Hello {
 
     public static void main(String[] args) {
-		//Your Code Here
 		Scanner sc=new Scanner(System.in);
 		String str=sc.nextLine();
 		char r=str.charAt(0);
