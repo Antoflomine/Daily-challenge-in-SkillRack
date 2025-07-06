@@ -18,8 +18,7 @@ public class Hello {
 		}
 		String bal="";
 		if(a.length()>b.length()){
-		    bal+=sb1.substring(y,sb1.length());
-		    
+		    bal+=sb1.substring(y,sb1.length());    
 		}
 		else{
 		    bal+=sb2.substring(y,sb2.length());
