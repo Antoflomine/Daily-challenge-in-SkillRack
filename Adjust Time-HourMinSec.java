@@ -9,8 +9,7 @@ public class Hello {
         int sec=Integer.parseInt(arr[2]);
         int x=sc.nextInt();
         int y=sc.nextInt();
-        int z=sc.nextInt();
-        
+        int z=sc.nextInt(); 
         hr=(hr+x)%24;
         String t1=String.format("%02d:%02d:%02d",hr,min,sec);
         System.out.println(t1);
