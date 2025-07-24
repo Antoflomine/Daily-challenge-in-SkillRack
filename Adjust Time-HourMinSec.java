@@ -33,6 +33,5 @@ public class Hello {
         }
         String t3=String.format("%02d:%02d:%02d",hr,min,sec);
         System.out.println(t3);
-
 	}
 }
