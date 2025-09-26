@@ -21,6 +21,7 @@ public class Main
 		        sum -= a.get(i);
 		    }
 		}
+		
 		System.out.println(sum);
 	}
 }
