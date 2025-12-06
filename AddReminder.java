@@ -13,6 +13,8 @@ public class Hello {
 		        arr[j] += (arr[j] % arr[i]);
 		    }
 		}
+
+		
 		for(int i=0; i<num; i++) {
 		    System.out.print(arr[i] + " ");
 		}
