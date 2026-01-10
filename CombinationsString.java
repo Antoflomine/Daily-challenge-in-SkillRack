@@ -21,8 +21,5 @@ public class Hello {
 	    for(String t:res){
 	    System.out.print(t+" ");
 	    }
-		//System.out.println(Arrays.toString(arr));
-		
-
 	}
 }
