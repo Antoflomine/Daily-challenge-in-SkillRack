@@ -15,7 +15,6 @@ public class Main
         // Convert excess seconds to minutes
         minutes += seconds / 60;
         seconds = seconds % 60;
-
         // Convert excess minutes to hours
         hours += minutes / 60;
         minutes = minutes % 60;
