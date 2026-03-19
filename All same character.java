@@ -17,7 +17,6 @@ public class Hello {
 		else{
 		    System.out.print("NO");
 		}
-
 	}
 }
 
