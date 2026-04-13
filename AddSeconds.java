@@ -9,12 +9,14 @@ public class Main
 	int hours = Integer.parseInt(arr[0]);
         int minutes = Integer.parseInt(arr[1]);
         int seconds = Integer.parseInt(arr[2]);
+		
         // Add the seconds
         seconds += s;
-
+	
         // Convert excess seconds to minutes
         minutes += seconds / 60;
         seconds = seconds % 60;
+		
         // Convert excess minutes to hours
         hours += minutes / 60;
         minutes = minutes % 60;
