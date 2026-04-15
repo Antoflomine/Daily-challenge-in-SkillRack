@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    int aa=sc.nextInt();
+	    int bb=sc.nextInt();
+	    String a=String.valueOf(aa);
+	    	    String b=String.valueOf(bb);
+	    	    if(a.charAt(a.length()-1)==b.charAt(b.length()-1)){
+	    	        if(Integer.parseInt(a)<Integer.parseInt(b)){
+	    	           System.out.println(b);
+	    	        }
+	    	        else{
+	    	           System.out.println(a); 
+	    	        }
+	    	    }
+	    	    else{
+	    	        if(a.charAt(a.length()-1)<b.charAt(b.length()-1)){
+	    	            System.out.println(a);
+	    	        }else{
+	    	            System.out.println(b);
+	    	        }
+	    	        
+	    	    }
+
+	}
+}
