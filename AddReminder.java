@@ -7,6 +7,7 @@ public class Hello {
 		for(int i=0; i<num; i++) {
 		    arr[i] = sc.nextInt();
 		}
+		
 		int k = sc.nextInt();
 		for(int i=0; i<k; i++) {
 		    for(int j=k; j<num; j++) {
