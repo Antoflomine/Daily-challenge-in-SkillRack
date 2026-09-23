@@ -9,7 +9,6 @@ public class Main
 	int hours = Integer.parseInt(arr[0]);
         int minutes = Integer.parseInt(arr[1]);
         int seconds = Integer.parseInt(arr[2]);
-		
         // Add the seconds
         seconds += s;
 	
